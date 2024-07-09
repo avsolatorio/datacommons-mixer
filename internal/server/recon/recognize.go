@@ -22,9 +22,9 @@ import (
 	"strings"
 	"sync"
 
-	pb "github.com/datacommonsorg/mixer/internal/proto"
-	"github.com/datacommonsorg/mixer/internal/store"
-	"github.com/datacommonsorg/mixer/internal/store/files"
+	pb "github.com/avsolatorio/datacommons-mixer/internal/proto"
+	"github.com/avsolatorio/datacommons-mixer/internal/store"
+	"github.com/avsolatorio/datacommons-mixer/internal/store/files"
 )
 
 const (

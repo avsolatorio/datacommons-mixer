@@ -17,8 +17,8 @@ package propertyvalues
 import (
 	"context"
 
-	pbv1 "github.com/datacommonsorg/mixer/internal/proto/v1"
-	"github.com/datacommonsorg/mixer/internal/store/bigtable"
+	pbv1 "github.com/avsolatorio/datacommons-mixer/internal/proto/v1"
+	"github.com/avsolatorio/datacommons-mixer/internal/store/bigtable"
 	"github.com/avsolatorio/datacommons-mixer/internal/util"
 	"google.golang.org/protobuf/proto"
 )

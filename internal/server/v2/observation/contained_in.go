@@ -23,20 +23,20 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/datacommonsorg/mixer/internal/merger"
-	pb "github.com/datacommonsorg/mixer/internal/proto"
-	pbv2 "github.com/datacommonsorg/mixer/internal/proto/v2"
-	"github.com/datacommonsorg/mixer/internal/server/ranking"
-	"github.com/datacommonsorg/mixer/internal/server/resource"
-	"github.com/datacommonsorg/mixer/internal/server/stat"
-	"github.com/datacommonsorg/mixer/internal/server/v2/shared"
-	"github.com/datacommonsorg/mixer/internal/store/bigtable"
+	"github.com/avsolatorio/datacommons-mixer/internal/merger"
+	pb "github.com/avsolatorio/datacommons-mixer/internal/proto"
+	pbv2 "github.com/avsolatorio/datacommons-mixer/internal/proto/v2"
+	"github.com/avsolatorio/datacommons-mixer/internal/server/ranking"
+	"github.com/avsolatorio/datacommons-mixer/internal/server/resource"
+	"github.com/avsolatorio/datacommons-mixer/internal/server/stat"
+	"github.com/avsolatorio/datacommons-mixer/internal/server/v2/shared"
+	"github.com/avsolatorio/datacommons-mixer/internal/store/bigtable"
 	"github.com/avsolatorio/datacommons-mixer/internal/util"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/datacommonsorg/mixer/internal/store"
+	"github.com/avsolatorio/datacommons-mixer/internal/store"
 )
 
 // Direct response are from child entities list. No need to have an entity in

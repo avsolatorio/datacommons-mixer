@@ -20,8 +20,8 @@ import (
 	"runtime"
 	"testing"
 
-	pb "github.com/datacommonsorg/mixer/internal/proto"
-	"github.com/datacommonsorg/mixer/test"
+	pb "github.com/avsolatorio/datacommons-mixer/internal/proto"
+	"github.com/avsolatorio/datacommons-mixer/test"
 	"github.com/google/go-cmp/cmp"
 	"google.golang.org/protobuf/testing/protocmp"
 )

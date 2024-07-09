@@ -18,11 +18,11 @@ import (
 	"context"
 	"sort"
 
-	pb "github.com/datacommonsorg/mixer/internal/proto"
-	"github.com/datacommonsorg/mixer/internal/server/ranking"
-	"github.com/datacommonsorg/mixer/internal/server/stat"
-	"github.com/datacommonsorg/mixer/internal/store"
-	"github.com/datacommonsorg/mixer/internal/store/bigtable"
+	pb "github.com/avsolatorio/datacommons-mixer/internal/proto"
+	"github.com/avsolatorio/datacommons-mixer/internal/server/ranking"
+	"github.com/avsolatorio/datacommons-mixer/internal/server/stat"
+	"github.com/avsolatorio/datacommons-mixer/internal/store"
+	"github.com/avsolatorio/datacommons-mixer/internal/store/bigtable"
 
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"

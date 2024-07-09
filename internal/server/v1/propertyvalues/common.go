@@ -17,8 +17,8 @@ package propertyvalues
 import (
 	"container/heap"
 
-	pb "github.com/datacommonsorg/mixer/internal/proto"
-	pbv1 "github.com/datacommonsorg/mixer/internal/proto/v1"
+	pb "github.com/avsolatorio/datacommons-mixer/internal/proto"
+	pbv1 "github.com/avsolatorio/datacommons-mixer/internal/proto/v1"
 	"google.golang.org/protobuf/proto"
 )
 

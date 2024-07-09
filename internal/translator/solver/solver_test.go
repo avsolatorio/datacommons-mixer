@@ -17,10 +17,10 @@ package solver
 import (
 	"testing"
 
-	"github.com/datacommonsorg/mixer/internal/parser/mcf"
-	"github.com/datacommonsorg/mixer/internal/translator/datalog"
-	"github.com/datacommonsorg/mixer/internal/translator/testutil"
-	"github.com/datacommonsorg/mixer/internal/translator/types"
+	"github.com/avsolatorio/datacommons-mixer/internal/parser/mcf"
+	"github.com/avsolatorio/datacommons-mixer/internal/translator/datalog"
+	"github.com/avsolatorio/datacommons-mixer/internal/translator/testutil"
+	"github.com/avsolatorio/datacommons-mixer/internal/translator/types"
 
 	"github.com/go-test/deep"
 )

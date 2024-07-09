@@ -19,7 +19,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/datacommonsorg/mixer/internal/parser/tmcf"
+	"github.com/avsolatorio/datacommons-mixer/internal/parser/tmcf"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 )

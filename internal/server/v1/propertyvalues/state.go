@@ -20,9 +20,9 @@ import (
 	"sort"
 	"strconv"
 
-	pb "github.com/datacommonsorg/mixer/internal/proto"
-	pbv1 "github.com/datacommonsorg/mixer/internal/proto/v1"
-	"github.com/datacommonsorg/mixer/internal/store/bigtable"
+	pb "github.com/avsolatorio/datacommons-mixer/internal/proto"
+	pbv1 "github.com/avsolatorio/datacommons-mixer/internal/proto/v1"
+	"github.com/avsolatorio/datacommons-mixer/internal/store/bigtable"
 )
 
 // state holds raw and processed data for property values API.

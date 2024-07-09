@@ -21,7 +21,7 @@ import (
 	"runtime"
 	"time"
 
-	pbs "github.com/datacommonsorg/mixer/internal/proto/service"
+	pbs "github.com/avsolatorio/datacommons-mixer/internal/proto/service"
 )
 
 const numTestTimes = 4

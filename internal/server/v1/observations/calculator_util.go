@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"strings"
 
-	pb "github.com/datacommonsorg/mixer/internal/proto"
+	pb "github.com/avsolatorio/datacommons-mixer/internal/proto"
 )
 
 // Golang's AST package is used for parsing the formula, so we need to avoid sensitive tokens for

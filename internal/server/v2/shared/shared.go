@@ -20,10 +20,10 @@ import (
 	"fmt"
 	"net/http"
 
-	pbv2 "github.com/datacommonsorg/mixer/internal/proto/v2"
-	"github.com/datacommonsorg/mixer/internal/server/placein"
-	"github.com/datacommonsorg/mixer/internal/server/resource"
-	"github.com/datacommonsorg/mixer/internal/store"
+	pbv2 "github.com/avsolatorio/datacommons-mixer/internal/proto/v2"
+	"github.com/avsolatorio/datacommons-mixer/internal/server/placein"
+	"github.com/avsolatorio/datacommons-mixer/internal/server/resource"
+	"github.com/avsolatorio/datacommons-mixer/internal/store"
 	"github.com/avsolatorio/datacommons-mixer/internal/util"
 	"golang.org/x/sync/errgroup"
 )

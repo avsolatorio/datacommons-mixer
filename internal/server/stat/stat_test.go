@@ -18,8 +18,8 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/datacommonsorg/mixer/internal/server/model"
-	"github.com/datacommonsorg/mixer/internal/server/ranking"
+	"github.com/avsolatorio/datacommons-mixer/internal/server/model"
+	"github.com/avsolatorio/datacommons-mixer/internal/server/ranking"
 	"github.com/google/go-cmp/cmp"
 	"google.golang.org/protobuf/testing/protocmp"
 )

@@ -20,12 +20,12 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/datacommonsorg/mixer/internal/server/v1/propertyvalues"
-	"github.com/datacommonsorg/mixer/internal/store"
+	"github.com/avsolatorio/datacommons-mixer/internal/server/v1/propertyvalues"
+	"github.com/avsolatorio/datacommons-mixer/internal/store"
 	"github.com/avsolatorio/datacommons-mixer/internal/util"
 
-	pb "github.com/datacommonsorg/mixer/internal/proto"
-	pbv1 "github.com/datacommonsorg/mixer/internal/proto/v1"
+	pb "github.com/avsolatorio/datacommons-mixer/internal/proto"
+	pbv1 "github.com/avsolatorio/datacommons-mixer/internal/proto/v1"
 )
 
 // GetPropertyValues implements API for Mixer.GetPropertyValues.

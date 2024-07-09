@@ -22,7 +22,7 @@
 syntax = "proto3";
 package datacommons;
 
-option go_package = "github.com/datacommonsorg/mixer/internal/proto/service";
+option go_package = "github.com/avsolatorio/datacommons-mixer/internal/proto/service";
 
 import "google/api/annotations.proto";
 import "common.proto";

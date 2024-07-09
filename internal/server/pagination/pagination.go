@@ -17,7 +17,7 @@ package pagination
 import (
 	"fmt"
 
-	pbv1 "github.com/datacommonsorg/mixer/internal/proto/v1"
+	pbv1 "github.com/avsolatorio/datacommons-mixer/internal/proto/v1"
 	"github.com/avsolatorio/datacommons-mixer/internal/util"
 	"google.golang.org/protobuf/proto"
 )

@@ -19,8 +19,8 @@ package convert
 import (
 	"sort"
 
-	pb "github.com/datacommonsorg/mixer/internal/proto"
-	"github.com/datacommonsorg/mixer/internal/server/model"
+	pb "github.com/avsolatorio/datacommons-mixer/internal/proto"
+	"github.com/avsolatorio/datacommons-mixer/internal/server/model"
 )
 
 // ToLegacyResult converts pb.GetTriplesResponse to legacy golang struct to

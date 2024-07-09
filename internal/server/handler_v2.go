@@ -18,15 +18,15 @@ package server
 import (
 	"context"
 
-	"github.com/datacommonsorg/mixer/internal/merger"
-	pb "github.com/datacommonsorg/mixer/internal/proto"
-	"github.com/datacommonsorg/mixer/internal/server/pagination"
-	"github.com/datacommonsorg/mixer/internal/server/translator"
-	v2observation "github.com/datacommonsorg/mixer/internal/server/v2/observation"
+	"github.com/avsolatorio/datacommons-mixer/internal/merger"
+	pb "github.com/avsolatorio/datacommons-mixer/internal/proto"
+	"github.com/avsolatorio/datacommons-mixer/internal/server/pagination"
+	"github.com/avsolatorio/datacommons-mixer/internal/server/translator"
+	v2observation "github.com/avsolatorio/datacommons-mixer/internal/server/v2/observation"
 	"github.com/avsolatorio/datacommons-mixer/internal/util"
 	"golang.org/x/sync/errgroup"
 
-	pbv2 "github.com/datacommonsorg/mixer/internal/proto/v2"
+	pbv2 "github.com/avsolatorio/datacommons-mixer/internal/proto/v2"
 )
 
 // V2Resolve implements API for mixer.V2Resolve.

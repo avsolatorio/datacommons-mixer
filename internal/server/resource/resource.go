@@ -17,7 +17,7 @@ package resource
 import (
 	"strings"
 
-	"github.com/datacommonsorg/mixer/internal/translator/types"
+	"github.com/avsolatorio/datacommons-mixer/internal/translator/types"
 )
 
 // we want non human curated stat vars to be ranked last, so set their number of

@@ -18,9 +18,9 @@ package observation
 import (
 	"database/sql"
 
-	pb "github.com/datacommonsorg/mixer/internal/proto"
-	pbv2 "github.com/datacommonsorg/mixer/internal/proto/v2"
-	"github.com/datacommonsorg/mixer/internal/server/v2/shared"
+	pb "github.com/avsolatorio/datacommons-mixer/internal/proto"
+	pbv2 "github.com/avsolatorio/datacommons-mixer/internal/proto/v2"
+	"github.com/avsolatorio/datacommons-mixer/internal/server/v2/shared"
 	"google.golang.org/protobuf/proto"
 )
 

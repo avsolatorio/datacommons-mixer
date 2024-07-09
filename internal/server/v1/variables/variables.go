@@ -18,13 +18,13 @@ import (
 	"context"
 	"sort"
 
-	pbv1 "github.com/datacommonsorg/mixer/internal/proto/v1"
-	"github.com/datacommonsorg/mixer/internal/server/statvar/fetcher"
+	pbv1 "github.com/avsolatorio/datacommons-mixer/internal/proto/v1"
+	"github.com/avsolatorio/datacommons-mixer/internal/server/statvar/fetcher"
 	"github.com/avsolatorio/datacommons-mixer/internal/util"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/datacommonsorg/mixer/internal/store"
+	"github.com/avsolatorio/datacommons-mixer/internal/store"
 )
 
 // Variables implements API for Mixer.Variables.

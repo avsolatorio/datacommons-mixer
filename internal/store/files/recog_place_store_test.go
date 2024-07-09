@@ -18,7 +18,7 @@ package files
 import (
 	"testing"
 
-	pb "github.com/datacommonsorg/mixer/internal/proto"
+	pb "github.com/avsolatorio/datacommons-mixer/internal/proto"
 	"github.com/google/go-cmp/cmp"
 	"google.golang.org/protobuf/testing/protocmp"
 )

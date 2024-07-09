@@ -20,12 +20,12 @@ import (
 	"log"
 	"os"
 
-	pb "github.com/datacommonsorg/mixer/internal/proto"
-	"github.com/datacommonsorg/mixer/internal/server/resource"
-	"github.com/datacommonsorg/mixer/internal/server/statvar/fetcher"
-	"github.com/datacommonsorg/mixer/internal/server/statvar/hierarchy"
-	"github.com/datacommonsorg/mixer/internal/sqldb/sqlquery"
-	"github.com/datacommonsorg/mixer/internal/store"
+	pb "github.com/avsolatorio/datacommons-mixer/internal/proto"
+	"github.com/avsolatorio/datacommons-mixer/internal/server/resource"
+	"github.com/avsolatorio/datacommons-mixer/internal/server/statvar/fetcher"
+	"github.com/avsolatorio/datacommons-mixer/internal/server/statvar/hierarchy"
+	"github.com/avsolatorio/datacommons-mixer/internal/sqldb/sqlquery"
+	"github.com/avsolatorio/datacommons-mixer/internal/store"
 	"github.com/avsolatorio/datacommons-mixer/internal/util"
 )
 

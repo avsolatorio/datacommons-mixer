@@ -26,7 +26,7 @@
 syntax = "proto3";
 package datacommons;
 
-option go_package = "github.com/datacommonsorg/mixer/internal/proto";
+option go_package = "github.com/avsolatorio/datacommons-mixer/internal/proto";
 
 // Represent information about Bigtable in a project.
 // This is repsented in yaml format, used as server config.

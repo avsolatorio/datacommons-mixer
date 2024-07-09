@@ -16,7 +16,7 @@
 syntax = "proto3";
 package datacommons.v2;
 
-option go_package = "github.com/datacommonsorg/mixer/internal/proto/v2";
+option go_package = "github.com/avsolatorio/datacommons-mixer/internal/proto/v2";
 
 // Three modes are supported:
 //
@@ -25,7 +25,7 @@ option go_package = "github.com/datacommonsorg/mixer/internal/proto/v2";
 //   property = "<-wikidataId->nutsCode"
 //
 // 2. Coordinate (latitude#longitude) to DCID:
-//   nodes = ["34.56#-23.12", "-22.11#44.55"] 
+//   nodes = ["34.56#-23.12", "-22.11#44.55"]
 //   property = "<-geoCoordinate->dcid"
 //
 // 3. Description (name) to DCID:

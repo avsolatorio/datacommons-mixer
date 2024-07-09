@@ -17,9 +17,9 @@ package info
 import (
 	"context"
 
-	pbv1 "github.com/datacommonsorg/mixer/internal/proto/v1"
-	"github.com/datacommonsorg/mixer/internal/server/statvar"
-	"github.com/datacommonsorg/mixer/internal/store"
+	pbv1 "github.com/avsolatorio/datacommons-mixer/internal/proto/v1"
+	"github.com/avsolatorio/datacommons-mixer/internal/server/statvar"
+	"github.com/avsolatorio/datacommons-mixer/internal/store"
 	"github.com/avsolatorio/datacommons-mixer/internal/util"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"

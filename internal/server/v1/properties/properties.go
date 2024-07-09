@@ -17,13 +17,13 @@ package properties
 import (
 	"context"
 
-	pbv1 "github.com/datacommonsorg/mixer/internal/proto/v1"
-	nodewrapper "github.com/datacommonsorg/mixer/internal/server/node"
+	pbv1 "github.com/avsolatorio/datacommons-mixer/internal/proto/v1"
+	nodewrapper "github.com/avsolatorio/datacommons-mixer/internal/server/node"
 	"github.com/avsolatorio/datacommons-mixer/internal/util"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/datacommonsorg/mixer/internal/store"
+	"github.com/avsolatorio/datacommons-mixer/internal/store"
 )
 
 // Properties implements API for Mixer.Properties.

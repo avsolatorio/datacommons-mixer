@@ -23,7 +23,7 @@ import (
 	"strconv"
 	"strings"
 
-	pb "github.com/datacommonsorg/mixer/internal/proto"
+	pb "github.com/avsolatorio/datacommons-mixer/internal/proto"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 )

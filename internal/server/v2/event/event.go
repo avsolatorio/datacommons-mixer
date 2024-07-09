@@ -20,13 +20,13 @@ import (
 	"strconv"
 	"strings"
 
-	pbv1 "github.com/datacommonsorg/mixer/internal/proto/v1"
-	pbv2 "github.com/datacommonsorg/mixer/internal/proto/v2"
-	v1e "github.com/datacommonsorg/mixer/internal/server/v1/event"
+	pbv1 "github.com/avsolatorio/datacommons-mixer/internal/proto/v1"
+	pbv2 "github.com/avsolatorio/datacommons-mixer/internal/proto/v2"
+	v1e "github.com/avsolatorio/datacommons-mixer/internal/server/v1/event"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/datacommonsorg/mixer/internal/store"
+	"github.com/avsolatorio/datacommons-mixer/internal/store"
 )
 
 // EventCollection implements for EventCollection.

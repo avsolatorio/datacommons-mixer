@@ -20,10 +20,10 @@ import (
 	"fmt"
 	"log"
 
-	pb "github.com/datacommonsorg/mixer/internal/proto"
-	pbs "github.com/datacommonsorg/mixer/internal/proto/service"
-	pbv1 "github.com/datacommonsorg/mixer/internal/proto/v1"
-	pbv2 "github.com/datacommonsorg/mixer/internal/proto/v2"
+	pb "github.com/avsolatorio/datacommons-mixer/internal/proto"
+	pbs "github.com/avsolatorio/datacommons-mixer/internal/proto/service"
+	pbv1 "github.com/avsolatorio/datacommons-mixer/internal/proto/v1"
+	pbv2 "github.com/avsolatorio/datacommons-mixer/internal/proto/v2"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 )

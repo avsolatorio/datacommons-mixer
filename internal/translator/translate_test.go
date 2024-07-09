@@ -19,11 +19,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/datacommonsorg/mixer/internal/translator/datalog"
-	"github.com/datacommonsorg/mixer/internal/translator/solver"
-	"github.com/datacommonsorg/mixer/internal/translator/sparql"
-	"github.com/datacommonsorg/mixer/internal/translator/testutil"
-	"github.com/datacommonsorg/mixer/internal/translator/types"
+	"github.com/avsolatorio/datacommons-mixer/internal/translator/datalog"
+	"github.com/avsolatorio/datacommons-mixer/internal/translator/solver"
+	"github.com/avsolatorio/datacommons-mixer/internal/translator/sparql"
+	"github.com/avsolatorio/datacommons-mixer/internal/translator/testutil"
+	"github.com/avsolatorio/datacommons-mixer/internal/translator/types"
 	"github.com/google/go-cmp/cmp"
 )
 

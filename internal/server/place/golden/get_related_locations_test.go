@@ -21,9 +21,9 @@ import (
 	"runtime"
 	"testing"
 
-	pb "github.com/datacommonsorg/mixer/internal/proto"
-	pbs "github.com/datacommonsorg/mixer/internal/proto/service"
-	"github.com/datacommonsorg/mixer/test"
+	pb "github.com/avsolatorio/datacommons-mixer/internal/proto"
+	pbs "github.com/avsolatorio/datacommons-mixer/internal/proto/service"
+	"github.com/avsolatorio/datacommons-mixer/test"
 	"github.com/google/go-cmp/cmp"
 	"google.golang.org/protobuf/encoding/protojson"
 	"google.golang.org/protobuf/testing/protocmp"

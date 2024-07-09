@@ -19,9 +19,9 @@ import (
 	"reflect"
 	"testing"
 
-	pb "github.com/datacommonsorg/mixer/internal/proto"
-	pbv2 "github.com/datacommonsorg/mixer/internal/proto/v2"
-	"github.com/datacommonsorg/mixer/internal/server/statvar/formula"
+	pb "github.com/avsolatorio/datacommons-mixer/internal/proto"
+	pbv2 "github.com/avsolatorio/datacommons-mixer/internal/proto/v2"
+	"github.com/avsolatorio/datacommons-mixer/internal/server/statvar/formula"
 	"google.golang.org/protobuf/proto"
 )
 

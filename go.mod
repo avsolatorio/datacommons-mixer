@@ -1,4 +1,4 @@
-module github.com/datacommonsorg/mixer
+module github.com/avsolatorio/datacommons-mixer
 
 go 1.20
 

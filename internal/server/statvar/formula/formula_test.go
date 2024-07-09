@@ -18,7 +18,7 @@ import (
 	"reflect"
 	"testing"
 
-	pb "github.com/datacommonsorg/mixer/internal/proto"
+	pb "github.com/avsolatorio/datacommons-mixer/internal/proto"
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
 )

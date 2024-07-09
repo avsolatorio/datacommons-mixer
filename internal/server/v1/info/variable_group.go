@@ -18,11 +18,11 @@ import (
 	"context"
 	"sort"
 
-	pb "github.com/datacommonsorg/mixer/internal/proto"
-	pbv1 "github.com/datacommonsorg/mixer/internal/proto/v1"
-	"github.com/datacommonsorg/mixer/internal/server/cache"
-	"github.com/datacommonsorg/mixer/internal/server/statvar"
-	"github.com/datacommonsorg/mixer/internal/store"
+	pb "github.com/avsolatorio/datacommons-mixer/internal/proto"
+	pbv1 "github.com/avsolatorio/datacommons-mixer/internal/proto/v1"
+	"github.com/avsolatorio/datacommons-mixer/internal/server/cache"
+	"github.com/avsolatorio/datacommons-mixer/internal/server/statvar"
+	"github.com/avsolatorio/datacommons-mixer/internal/store"
 	"golang.org/x/sync/errgroup"
 )
 

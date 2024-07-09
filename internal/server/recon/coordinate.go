@@ -19,10 +19,10 @@ import (
 	"encoding/json"
 	"fmt"
 
-	pb "github.com/datacommonsorg/mixer/internal/proto"
-	"github.com/datacommonsorg/mixer/internal/server/v0/propertyvalue"
-	"github.com/datacommonsorg/mixer/internal/store"
-	"github.com/datacommonsorg/mixer/internal/store/bigtable"
+	pb "github.com/avsolatorio/datacommons-mixer/internal/proto"
+	"github.com/avsolatorio/datacommons-mixer/internal/server/v0/propertyvalue"
+	"github.com/avsolatorio/datacommons-mixer/internal/store"
+	"github.com/avsolatorio/datacommons-mixer/internal/store/bigtable"
 	"github.com/golang/geo/s2"
 	"google.golang.org/protobuf/proto"
 )

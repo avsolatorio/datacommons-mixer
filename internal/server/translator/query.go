@@ -19,12 +19,12 @@ import (
 	"fmt"
 
 	"cloud.google.com/go/bigquery"
-	"github.com/datacommonsorg/mixer/internal/server/resource"
-	"github.com/datacommonsorg/mixer/internal/store"
-	"github.com/datacommonsorg/mixer/internal/translator"
-	"github.com/datacommonsorg/mixer/internal/translator/sparql"
+	"github.com/avsolatorio/datacommons-mixer/internal/server/resource"
+	"github.com/avsolatorio/datacommons-mixer/internal/store"
+	"github.com/avsolatorio/datacommons-mixer/internal/translator"
+	"github.com/avsolatorio/datacommons-mixer/internal/translator/sparql"
 
-	pb "github.com/datacommonsorg/mixer/internal/proto"
+	pb "github.com/avsolatorio/datacommons-mixer/internal/proto"
 
 	"google.golang.org/api/iterator"
 )

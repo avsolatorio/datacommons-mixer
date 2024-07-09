@@ -15,7 +15,7 @@
 syntax = "proto3";
 package datacommons.v1;
 
-option go_package = "github.com/datacommonsorg/mixer/internal/proto/v1";
+option go_package = "github.com/avsolatorio/datacommons-mixer/internal/proto/v1";
 
 // A collection of events that share some common properties.
 message EventCollection {

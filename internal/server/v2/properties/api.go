@@ -19,11 +19,11 @@ import (
 	"context"
 	"strings"
 
-	pbv2 "github.com/datacommonsorg/mixer/internal/proto/v2"
-	nodewrapper "github.com/datacommonsorg/mixer/internal/server/node"
+	pbv2 "github.com/avsolatorio/datacommons-mixer/internal/proto/v2"
+	nodewrapper "github.com/avsolatorio/datacommons-mixer/internal/server/node"
 	"github.com/avsolatorio/datacommons-mixer/internal/util"
 
-	"github.com/datacommonsorg/mixer/internal/store"
+	"github.com/avsolatorio/datacommons-mixer/internal/store"
 )
 
 // API is the V2 properties API implementation entry point.

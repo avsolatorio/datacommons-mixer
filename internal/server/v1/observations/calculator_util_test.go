@@ -18,7 +18,7 @@ import (
 	"reflect"
 	"testing"
 
-	pb "github.com/datacommonsorg/mixer/internal/proto"
+	pb "github.com/avsolatorio/datacommons-mixer/internal/proto"
 )
 
 func TestParseNodeName(t *testing.T) {

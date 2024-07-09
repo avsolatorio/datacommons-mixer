@@ -28,7 +28,7 @@
 syntax = "proto3";
 package datacommons;
 
-option go_package = "github.com/datacommonsorg/mixer/internal/proto";
+option go_package = "github.com/avsolatorio/datacommons-mixer/internal/proto";
 
 // Facet contains the source and measurement information for a
 // statistical observation.

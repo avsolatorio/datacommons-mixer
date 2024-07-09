@@ -18,11 +18,11 @@ import (
 	"context"
 	"encoding/json"
 
-	"github.com/datacommonsorg/mixer/internal/parser/mcf"
-	pb "github.com/datacommonsorg/mixer/internal/proto"
-	"github.com/datacommonsorg/mixer/internal/server/resource"
-	"github.com/datacommonsorg/mixer/internal/translator"
-	"github.com/datacommonsorg/mixer/internal/translator/sparql"
+	"github.com/avsolatorio/datacommons-mixer/internal/parser/mcf"
+	pb "github.com/avsolatorio/datacommons-mixer/internal/proto"
+	"github.com/avsolatorio/datacommons-mixer/internal/server/resource"
+	"github.com/avsolatorio/datacommons-mixer/internal/translator"
+	"github.com/avsolatorio/datacommons-mixer/internal/translator/sparql"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 )

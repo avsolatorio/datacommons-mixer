@@ -18,9 +18,9 @@ import (
 	"database/sql"
 
 	"cloud.google.com/go/bigquery"
-	"github.com/datacommonsorg/mixer/internal/server/resource"
-	"github.com/datacommonsorg/mixer/internal/store/bigtable"
-	"github.com/datacommonsorg/mixer/internal/store/files"
+	"github.com/avsolatorio/datacommons-mixer/internal/server/resource"
+	"github.com/avsolatorio/datacommons-mixer/internal/store/bigtable"
+	"github.com/avsolatorio/datacommons-mixer/internal/store/files"
 )
 
 // Store holds the handlers to BigQuery and Bigtable

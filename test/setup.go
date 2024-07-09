@@ -30,12 +30,12 @@ import (
 	_ "github.com/mattn/go-sqlite3" // import the sqlite3 driver
 
 	"cloud.google.com/go/bigquery"
-	pbs "github.com/datacommonsorg/mixer/internal/proto/service"
-	"github.com/datacommonsorg/mixer/internal/server"
-	"github.com/datacommonsorg/mixer/internal/server/cache"
-	"github.com/datacommonsorg/mixer/internal/server/resource"
-	"github.com/datacommonsorg/mixer/internal/store"
-	"github.com/datacommonsorg/mixer/internal/store/bigtable"
+	pbs "github.com/avsolatorio/datacommons-mixer/internal/proto/service"
+	"github.com/avsolatorio/datacommons-mixer/internal/server"
+	"github.com/avsolatorio/datacommons-mixer/internal/server/cache"
+	"github.com/avsolatorio/datacommons-mixer/internal/server/resource"
+	"github.com/avsolatorio/datacommons-mixer/internal/store"
+	"github.com/avsolatorio/datacommons-mixer/internal/store/bigtable"
 	"github.com/avsolatorio/datacommons-mixer/internal/util"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"

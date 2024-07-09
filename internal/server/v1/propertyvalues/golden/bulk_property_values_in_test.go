@@ -20,10 +20,10 @@ import (
 	"runtime"
 	"testing"
 
-	pbs "github.com/datacommonsorg/mixer/internal/proto/service"
-	pbv1 "github.com/datacommonsorg/mixer/internal/proto/v1"
+	pbs "github.com/avsolatorio/datacommons-mixer/internal/proto/service"
+	pbv1 "github.com/avsolatorio/datacommons-mixer/internal/proto/v1"
 	"github.com/avsolatorio/datacommons-mixer/internal/util"
-	"github.com/datacommonsorg/mixer/test"
+	"github.com/avsolatorio/datacommons-mixer/test"
 	"github.com/google/go-cmp/cmp"
 	"google.golang.org/protobuf/testing/protocmp"
 )

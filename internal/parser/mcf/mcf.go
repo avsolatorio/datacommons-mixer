@@ -17,7 +17,7 @@ package mcf
 import (
 	"strings"
 
-	"github.com/datacommonsorg/mixer/internal/translator/types"
+	"github.com/avsolatorio/datacommons-mixer/internal/translator/types"
 
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"

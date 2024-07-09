@@ -18,7 +18,7 @@ import (
 	"database/sql"
 	"testing"
 
-	pb "github.com/datacommonsorg/mixer/internal/proto"
+	pb "github.com/avsolatorio/datacommons-mixer/internal/proto"
 	"github.com/go-test/deep"
 	"google.golang.org/protobuf/proto"
 )

@@ -17,9 +17,9 @@ package stat
 import (
 	"sort"
 
-	pb "github.com/datacommonsorg/mixer/internal/proto"
-	"github.com/datacommonsorg/mixer/internal/server/model"
-	"github.com/datacommonsorg/mixer/internal/server/ranking"
+	pb "github.com/avsolatorio/datacommons-mixer/internal/proto"
+	"github.com/avsolatorio/datacommons-mixer/internal/server/model"
+	"github.com/avsolatorio/datacommons-mixer/internal/server/ranking"
 	"github.com/avsolatorio/datacommons-mixer/internal/util"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"

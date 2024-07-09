@@ -18,12 +18,12 @@ package observation
 import (
 	"context"
 
-	pb "github.com/datacommonsorg/mixer/internal/proto"
-	pbv1 "github.com/datacommonsorg/mixer/internal/proto/v1"
-	pbv2 "github.com/datacommonsorg/mixer/internal/proto/v2"
+	pb "github.com/avsolatorio/datacommons-mixer/internal/proto"
+	pbv1 "github.com/avsolatorio/datacommons-mixer/internal/proto/v1"
+	pbv2 "github.com/avsolatorio/datacommons-mixer/internal/proto/v2"
 
-	v1o "github.com/datacommonsorg/mixer/internal/server/v1/observations"
-	"github.com/datacommonsorg/mixer/internal/store"
+	v1o "github.com/avsolatorio/datacommons-mixer/internal/server/v1/observations"
+	"github.com/avsolatorio/datacommons-mixer/internal/store"
 )
 
 // DerivedSeries computes derived series.

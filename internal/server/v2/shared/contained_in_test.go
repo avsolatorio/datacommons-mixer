@@ -22,10 +22,10 @@ import (
 	"reflect"
 	"testing"
 
-	pb "github.com/datacommonsorg/mixer/internal/proto"
-	pbv2 "github.com/datacommonsorg/mixer/internal/proto/v2"
-	"github.com/datacommonsorg/mixer/internal/server/resource"
-	"github.com/datacommonsorg/mixer/internal/store"
+	pb "github.com/avsolatorio/datacommons-mixer/internal/proto"
+	pbv2 "github.com/avsolatorio/datacommons-mixer/internal/proto/v2"
+	"github.com/avsolatorio/datacommons-mixer/internal/server/resource"
+	"github.com/avsolatorio/datacommons-mixer/internal/store"
 )
 
 func TestFetchChildPlaces(t *testing.T) {

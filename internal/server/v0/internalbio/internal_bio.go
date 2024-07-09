@@ -17,9 +17,9 @@ package internalbio
 import (
 	"context"
 
-	pb "github.com/datacommonsorg/mixer/internal/proto"
-	"github.com/datacommonsorg/mixer/internal/server/biopage"
-	"github.com/datacommonsorg/mixer/internal/store"
+	pb "github.com/avsolatorio/datacommons-mixer/internal/proto"
+	"github.com/avsolatorio/datacommons-mixer/internal/server/biopage"
+	"github.com/avsolatorio/datacommons-mixer/internal/store"
 	"github.com/avsolatorio/datacommons-mixer/internal/util"
 )
 

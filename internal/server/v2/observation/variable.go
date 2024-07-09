@@ -18,9 +18,9 @@ package observation
 import (
 	"context"
 
-	pbv2 "github.com/datacommonsorg/mixer/internal/proto/v2"
-	"github.com/datacommonsorg/mixer/internal/server/statvar/fetcher"
-	"github.com/datacommonsorg/mixer/internal/store"
+	pbv2 "github.com/avsolatorio/datacommons-mixer/internal/proto/v2"
+	"github.com/avsolatorio/datacommons-mixer/internal/server/statvar/fetcher"
+	"github.com/avsolatorio/datacommons-mixer/internal/store"
 )
 
 // Variable implements logic to fetch entity variables.

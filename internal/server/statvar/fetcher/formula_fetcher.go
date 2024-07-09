@@ -19,11 +19,11 @@ import (
 	"net/http"
 	"sort"
 
-	"github.com/datacommonsorg/mixer/internal/merger"
-	pbv2 "github.com/datacommonsorg/mixer/internal/proto/v2"
-	"github.com/datacommonsorg/mixer/internal/server/resource"
-	v1pv "github.com/datacommonsorg/mixer/internal/server/v1/propertyvalues"
-	"github.com/datacommonsorg/mixer/internal/store"
+	"github.com/avsolatorio/datacommons-mixer/internal/merger"
+	pbv2 "github.com/avsolatorio/datacommons-mixer/internal/proto/v2"
+	"github.com/avsolatorio/datacommons-mixer/internal/server/resource"
+	v1pv "github.com/avsolatorio/datacommons-mixer/internal/server/v1/propertyvalues"
+	"github.com/avsolatorio/datacommons-mixer/internal/store"
 	"github.com/avsolatorio/datacommons-mixer/internal/util"
 	"golang.org/x/sync/errgroup"
 )

@@ -24,7 +24,7 @@
 syntax = "proto2";
 package datacommons;
 
-option go_package = "github.com/datacommonsorg/mixer/internal/proto";
+option go_package = "github.com/avsolatorio/datacommons-mixer/internal/proto";
 
 //
 // A log of import processing with details on any warnings, errors, etc.

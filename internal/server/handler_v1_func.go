@@ -17,8 +17,8 @@
 package server
 
 import (
-	pbv1 "github.com/datacommonsorg/mixer/internal/proto/v1"
-	"github.com/datacommonsorg/mixer/internal/server/v1/info"
+	pbv1 "github.com/avsolatorio/datacommons-mixer/internal/proto/v1"
+	"github.com/avsolatorio/datacommons-mixer/internal/server/v1/info"
 	"github.com/avsolatorio/datacommons-mixer/internal/util"
 )
 

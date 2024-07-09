@@ -19,9 +19,9 @@ package observations
 import (
 	"context"
 
-	pbv1 "github.com/datacommonsorg/mixer/internal/proto/v1"
-	"github.com/datacommonsorg/mixer/internal/server/placein"
-	"github.com/datacommonsorg/mixer/internal/store"
+	pbv1 "github.com/avsolatorio/datacommons-mixer/internal/proto/v1"
+	"github.com/avsolatorio/datacommons-mixer/internal/server/placein"
+	"github.com/avsolatorio/datacommons-mixer/internal/store"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 )

@@ -19,7 +19,7 @@ package bigtable
 import (
 	"context"
 
-	pb "github.com/datacommonsorg/mixer/internal/proto"
+	pb "github.com/avsolatorio/datacommons-mixer/internal/proto"
 
 	cbt "cloud.google.com/go/bigtable"
 	"gopkg.in/yaml.v3"

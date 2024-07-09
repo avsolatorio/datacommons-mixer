@@ -15,7 +15,7 @@
 package propertyvalues
 
 import (
-	pb "github.com/datacommonsorg/mixer/internal/proto"
+	pb "github.com/avsolatorio/datacommons-mixer/internal/proto"
 )
 
 type heapElem struct {

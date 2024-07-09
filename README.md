@@ -4,7 +4,7 @@ Data Commons Mixer is an API server that serves Data Commons Data API. It gets d
 
 ## Git Development Process
 
-In Mixer GitHub [repo](https://github.com/datacommonsorg/mixer), click on "Fork"
+In Mixer GitHub [repo](https://github.com/avsolatorio/datacommons-mixer), click on "Fork"
 button to fork the repo.
 
 Clone the forked repo to your local machine and add datacommonsorg/mixer repo as a remote.
@@ -12,7 +12,7 @@ Clone the forked repo to your local machine and add datacommonsorg/mixer repo as
 ```shell
 git clone git@github.com:<YOUR-REPO>/mixer.git
 cd mixer
-git remote add dc https://github.com/datacommonsorg/mixer.git
+git remote add dc https://github.com/avsolatorio/datacommons-mixer.git
 ```
 
 Every time when you want to send a Pull Request, do the following steps:

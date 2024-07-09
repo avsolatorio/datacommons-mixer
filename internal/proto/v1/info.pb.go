@@ -21,7 +21,7 @@
 package v1
 
 import (
-	proto "github.com/datacommonsorg/mixer/internal/proto"
+	proto "github.com/avsolatorio/datacommons-mixer/internal/proto"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

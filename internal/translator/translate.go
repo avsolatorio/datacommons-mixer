@@ -20,9 +20,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/datacommonsorg/mixer/internal/parser/tmcf"
-	"github.com/datacommonsorg/mixer/internal/translator/solver"
-	"github.com/datacommonsorg/mixer/internal/translator/types"
+	"github.com/avsolatorio/datacommons-mixer/internal/parser/tmcf"
+	"github.com/avsolatorio/datacommons-mixer/internal/translator/solver"
+	"github.com/avsolatorio/datacommons-mixer/internal/translator/types"
 
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"

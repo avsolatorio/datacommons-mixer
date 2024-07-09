@@ -21,7 +21,7 @@ import (
 
 	"cloud.google.com/go/bigquery"
 
-	pb "github.com/datacommonsorg/mixer/internal/proto"
+	pb "github.com/avsolatorio/datacommons-mixer/internal/proto"
 
 	"google.golang.org/api/iterator"
 )

@@ -18,7 +18,7 @@ import (
 	"database/sql"
 	"time"
 
-	pb "github.com/datacommonsorg/mixer/internal/proto"
+	pb "github.com/avsolatorio/datacommons-mixer/internal/proto"
 	"github.com/avsolatorio/datacommons-mixer/internal/util"
 )
 

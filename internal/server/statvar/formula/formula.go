@@ -21,7 +21,7 @@ import (
 	"reflect"
 	"strings"
 
-	pb "github.com/datacommonsorg/mixer/internal/proto"
+	pb "github.com/avsolatorio/datacommons-mixer/internal/proto"
 )
 
 // The info of a node in the AST tree.

@@ -17,7 +17,7 @@ package datalog
 import (
 	"testing"
 
-	"github.com/datacommonsorg/mixer/internal/translator/types"
+	"github.com/avsolatorio/datacommons-mixer/internal/translator/types"
 	"github.com/go-test/deep"
 )
 

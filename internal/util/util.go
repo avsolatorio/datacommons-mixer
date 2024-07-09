@@ -38,8 +38,8 @@ import (
 
 	secretmanager "cloud.google.com/go/secretmanager/apiv1"
 	"cloud.google.com/go/secretmanager/apiv1/secretmanagerpb"
-	pb "github.com/datacommonsorg/mixer/internal/proto"
-	"github.com/datacommonsorg/mixer/internal/server/resource"
+	pb "github.com/avsolatorio/datacommons-mixer/internal/proto"
+	"github.com/avsolatorio/datacommons-mixer/internal/server/resource"
 	"github.com/go-sql-driver/mysql"
 	"github.com/mattn/go-sqlite3"
 	"golang.org/x/text/cases"

@@ -28,9 +28,9 @@
 package service
 
 import (
-	proto "github.com/datacommonsorg/mixer/internal/proto"
-	v1 "github.com/datacommonsorg/mixer/internal/proto/v1"
-	v2 "github.com/datacommonsorg/mixer/internal/proto/v2"
+	proto "github.com/avsolatorio/datacommons-mixer/internal/proto"
+	v1 "github.com/avsolatorio/datacommons-mixer/internal/proto/v1"
+	v2 "github.com/avsolatorio/datacommons-mixer/internal/proto/v2"
 	_ "google.golang.org/genproto/googleapis/api/annotations"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"

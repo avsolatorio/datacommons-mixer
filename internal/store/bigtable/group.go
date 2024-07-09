@@ -22,7 +22,7 @@ import (
 	"sync"
 
 	cbt "cloud.google.com/go/bigtable"
-	"github.com/datacommonsorg/mixer/internal/server/resource"
+	"github.com/avsolatorio/datacommons-mixer/internal/server/resource"
 )
 
 var groupRank = map[string]int{

@@ -17,15 +17,15 @@ package stat
 import (
 	"context"
 
-	"github.com/datacommonsorg/mixer/internal/server/convert"
-	"github.com/datacommonsorg/mixer/internal/server/model"
-	"github.com/datacommonsorg/mixer/internal/store/bigtable"
+	"github.com/avsolatorio/datacommons-mixer/internal/server/convert"
+	"github.com/avsolatorio/datacommons-mixer/internal/server/model"
+	"github.com/avsolatorio/datacommons-mixer/internal/store/bigtable"
 	"github.com/avsolatorio/datacommons-mixer/internal/util"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 	"google.golang.org/protobuf/proto"
 
-	pb "github.com/datacommonsorg/mixer/internal/proto"
+	pb "github.com/avsolatorio/datacommons-mixer/internal/proto"
 )
 
 // toObsSeriesPb converts ChartStore to pb.ObsTimeSerie

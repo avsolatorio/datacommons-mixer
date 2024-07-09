@@ -17,11 +17,11 @@ package place
 import (
 	"context"
 
-	"github.com/datacommonsorg/mixer/internal/store/bigtable"
+	"github.com/avsolatorio/datacommons-mixer/internal/store/bigtable"
 	"google.golang.org/protobuf/proto"
 
-	pb "github.com/datacommonsorg/mixer/internal/proto"
-	"github.com/datacommonsorg/mixer/internal/store"
+	pb "github.com/avsolatorio/datacommons-mixer/internal/proto"
+	"github.com/avsolatorio/datacommons-mixer/internal/store"
 	"github.com/avsolatorio/datacommons-mixer/internal/util"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"

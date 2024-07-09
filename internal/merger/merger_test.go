@@ -18,9 +18,9 @@ package merger
 import (
 	"testing"
 
-	pb "github.com/datacommonsorg/mixer/internal/proto"
-	pbv1 "github.com/datacommonsorg/mixer/internal/proto/v1"
-	pbv2 "github.com/datacommonsorg/mixer/internal/proto/v2"
+	pb "github.com/avsolatorio/datacommons-mixer/internal/proto"
+	pbv1 "github.com/avsolatorio/datacommons-mixer/internal/proto/v1"
+	pbv2 "github.com/avsolatorio/datacommons-mixer/internal/proto/v2"
 	"github.com/avsolatorio/datacommons-mixer/internal/util"
 	"github.com/google/go-cmp/cmp"
 	"google.golang.org/protobuf/proto"

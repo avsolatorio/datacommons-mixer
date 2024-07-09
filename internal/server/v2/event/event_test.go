@@ -18,7 +18,7 @@ package event
 import (
 	"testing"
 
-	v1e "github.com/datacommonsorg/mixer/internal/server/v1/event"
+	v1e "github.com/avsolatorio/datacommons-mixer/internal/server/v1/event"
 	"github.com/google/go-cmp/cmp"
 )
 

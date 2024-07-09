@@ -29,9 +29,9 @@ package service
 
 import (
 	context "context"
-	proto "github.com/datacommonsorg/mixer/internal/proto"
-	v1 "github.com/datacommonsorg/mixer/internal/proto/v1"
-	v2 "github.com/datacommonsorg/mixer/internal/proto/v2"
+	proto "github.com/avsolatorio/datacommons-mixer/internal/proto"
+	v1 "github.com/avsolatorio/datacommons-mixer/internal/proto/v1"
+	v2 "github.com/avsolatorio/datacommons-mixer/internal/proto/v2"
 	grpc "google.golang.org/grpc"
 	codes "google.golang.org/grpc/codes"
 	status "google.golang.org/grpc/status"

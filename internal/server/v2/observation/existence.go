@@ -17,10 +17,10 @@ package observation
 import (
 	"context"
 
-	pbv2 "github.com/datacommonsorg/mixer/internal/proto/v2"
-	"github.com/datacommonsorg/mixer/internal/server/cache"
-	"github.com/datacommonsorg/mixer/internal/server/count"
-	"github.com/datacommonsorg/mixer/internal/store"
+	pbv2 "github.com/avsolatorio/datacommons-mixer/internal/proto/v2"
+	"github.com/avsolatorio/datacommons-mixer/internal/server/cache"
+	"github.com/avsolatorio/datacommons-mixer/internal/server/count"
+	"github.com/avsolatorio/datacommons-mixer/internal/store"
 )
 
 // Existence implements logic to check existence for entity, variable pair.

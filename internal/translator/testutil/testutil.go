@@ -18,8 +18,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/datacommonsorg/mixer/internal/parser/mcf"
-	"github.com/datacommonsorg/mixer/internal/translator/types"
+	"github.com/avsolatorio/datacommons-mixer/internal/parser/mcf"
+	"github.com/avsolatorio/datacommons-mixer/internal/translator/types"
 )
 
 // DB is the database name.

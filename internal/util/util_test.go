@@ -18,8 +18,8 @@ import (
 	"reflect"
 	"testing"
 
-	pb "github.com/datacommonsorg/mixer/internal/proto"
-	v1 "github.com/datacommonsorg/mixer/internal/proto/v1"
+	pb "github.com/avsolatorio/datacommons-mixer/internal/proto"
+	v1 "github.com/avsolatorio/datacommons-mixer/internal/proto/v1"
 	"github.com/google/go-cmp/cmp"
 	"google.golang.org/protobuf/reflect/protoreflect"
 	"google.golang.org/protobuf/testing/protocmp"

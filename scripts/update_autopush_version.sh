@@ -38,5 +38,5 @@ echo $VERSION > /tmp/deployment/mixer/autopush/version.txt
 
 # Commit the version file
 git add /tmp/deployment/mixer/autopush/*
-git commit -m "Update autopush mixer versions at commit https://github.com/datacommonsorg/mixer/commit/$VERSION"
+git commit -m "Update autopush mixer versions at commit https://github.com/avsolatorio/datacommons-mixer/commit/$VERSION"
 git push origin master

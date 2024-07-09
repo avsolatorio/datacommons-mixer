@@ -20,11 +20,11 @@ import (
 	"fmt"
 	"net/http"
 
-	pbv2 "github.com/datacommonsorg/mixer/internal/proto/v2"
-	"github.com/datacommonsorg/mixer/internal/server/cache"
-	"github.com/datacommonsorg/mixer/internal/server/resource"
-	"github.com/datacommonsorg/mixer/internal/server/statvar/formula"
-	"github.com/datacommonsorg/mixer/internal/store"
+	pbv2 "github.com/avsolatorio/datacommons-mixer/internal/proto/v2"
+	"github.com/avsolatorio/datacommons-mixer/internal/server/cache"
+	"github.com/avsolatorio/datacommons-mixer/internal/server/resource"
+	"github.com/avsolatorio/datacommons-mixer/internal/server/statvar/formula"
+	"github.com/avsolatorio/datacommons-mixer/internal/store"
 )
 
 type Equation struct {

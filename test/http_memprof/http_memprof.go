@@ -26,8 +26,8 @@ import (
 	"strconv"
 	"time"
 
-	pbs "github.com/datacommonsorg/mixer/internal/proto/service"
-	pbv1 "github.com/datacommonsorg/mixer/internal/proto/v1"
+	pbs "github.com/avsolatorio/datacommons-mixer/internal/proto/service"
+	pbv1 "github.com/avsolatorio/datacommons-mixer/internal/proto/v1"
 	"github.com/google/pprof/profile"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"

@@ -15,7 +15,7 @@
 syntax = "proto3";
 package datacommons.v2;
 
-option go_package = "github.com/datacommonsorg/mixer/internal/proto/v2";
+option go_package = "github.com/avsolatorio/datacommons-mixer/internal/proto/v2";
 
 import "v1/event.proto";
 

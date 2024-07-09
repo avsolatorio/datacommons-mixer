@@ -20,12 +20,12 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/datacommonsorg/mixer/internal/server/resource"
-	"github.com/datacommonsorg/mixer/internal/server/translator"
-	"github.com/datacommonsorg/mixer/internal/server/v0/propertyvalue"
+	"github.com/avsolatorio/datacommons-mixer/internal/server/resource"
+	"github.com/avsolatorio/datacommons-mixer/internal/server/translator"
+	"github.com/avsolatorio/datacommons-mixer/internal/server/v0/propertyvalue"
 
-	pb "github.com/datacommonsorg/mixer/internal/proto"
-	"github.com/datacommonsorg/mixer/internal/store"
+	pb "github.com/avsolatorio/datacommons-mixer/internal/proto"
+	"github.com/avsolatorio/datacommons-mixer/internal/store"
 )
 
 type prop struct {

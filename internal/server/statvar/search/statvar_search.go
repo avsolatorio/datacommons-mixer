@@ -19,11 +19,11 @@ import (
 	"sort"
 	"strings"
 
-	pb "github.com/datacommonsorg/mixer/internal/proto"
-	"github.com/datacommonsorg/mixer/internal/server/cache"
-	"github.com/datacommonsorg/mixer/internal/server/count"
-	"github.com/datacommonsorg/mixer/internal/server/resource"
-	"github.com/datacommonsorg/mixer/internal/store"
+	pb "github.com/avsolatorio/datacommons-mixer/internal/proto"
+	"github.com/avsolatorio/datacommons-mixer/internal/server/cache"
+	"github.com/avsolatorio/datacommons-mixer/internal/server/count"
+	"github.com/avsolatorio/datacommons-mixer/internal/server/resource"
+	"github.com/avsolatorio/datacommons-mixer/internal/store"
 )
 
 const (

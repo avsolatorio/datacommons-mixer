@@ -27,7 +27,7 @@
 syntax = "proto3";
 package datacommons;
 
-option go_package = "github.com/datacommonsorg/mixer/internal/proto";
+option go_package = "github.com/avsolatorio/datacommons-mixer/internal/proto";
 
 // Request to get all data in bio page.
 message GetBioPageDataRequest {
@@ -54,7 +54,7 @@ message GetImportTableDataResponse{
       optional int32 num_obs = 5;
       optional int32 num_vars = 6;
     }
-  
+
     string imported_at = 2;
     string status = 3;
     ImportMetadata metadata = 4;

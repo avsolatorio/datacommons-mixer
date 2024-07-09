@@ -23,9 +23,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/datacommonsorg/mixer/internal/server/resource"
+	"github.com/avsolatorio/datacommons-mixer/internal/server/resource"
 
-	pb "github.com/datacommonsorg/mixer/internal/proto"
+	pb "github.com/avsolatorio/datacommons-mixer/internal/proto"
 	"github.com/avsolatorio/datacommons-mixer/internal/util"
 )
 

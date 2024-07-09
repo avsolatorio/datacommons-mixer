@@ -19,20 +19,20 @@ import (
 	"context"
 	"strings"
 
-	pb "github.com/datacommonsorg/mixer/internal/proto"
-	pbv2 "github.com/datacommonsorg/mixer/internal/proto/v2"
-	"github.com/datacommonsorg/mixer/internal/server/cache"
-	"github.com/datacommonsorg/mixer/internal/server/node"
-	"github.com/datacommonsorg/mixer/internal/server/placein"
-	"github.com/datacommonsorg/mixer/internal/server/resource"
-	"github.com/datacommonsorg/mixer/internal/server/statvar/hierarchy"
-	v1pv "github.com/datacommonsorg/mixer/internal/server/v1/propertyvalues"
-	v2p "github.com/datacommonsorg/mixer/internal/server/v2/properties"
+	pb "github.com/avsolatorio/datacommons-mixer/internal/proto"
+	pbv2 "github.com/avsolatorio/datacommons-mixer/internal/proto/v2"
+	"github.com/avsolatorio/datacommons-mixer/internal/server/cache"
+	"github.com/avsolatorio/datacommons-mixer/internal/server/node"
+	"github.com/avsolatorio/datacommons-mixer/internal/server/placein"
+	"github.com/avsolatorio/datacommons-mixer/internal/server/resource"
+	"github.com/avsolatorio/datacommons-mixer/internal/server/statvar/hierarchy"
+	v1pv "github.com/avsolatorio/datacommons-mixer/internal/server/v1/propertyvalues"
+	v2p "github.com/avsolatorio/datacommons-mixer/internal/server/v2/properties"
 	"github.com/avsolatorio/datacommons-mixer/internal/util"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/datacommonsorg/mixer/internal/store"
+	"github.com/avsolatorio/datacommons-mixer/internal/store"
 )
 
 // PropertyValues is the V2 property values API implementation entry point.

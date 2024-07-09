@@ -20,8 +20,8 @@
 package ranking
 
 import (
-	pb "github.com/datacommonsorg/mixer/internal/proto"
-	"github.com/datacommonsorg/mixer/internal/server/model"
+	pb "github.com/avsolatorio/datacommons-mixer/internal/proto"
+	"github.com/avsolatorio/datacommons-mixer/internal/server/model"
 )
 
 // RankKey represents keys used for ranking.

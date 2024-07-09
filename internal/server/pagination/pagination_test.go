@@ -17,7 +17,7 @@ package pagination
 import (
 	"testing"
 
-	pbv1 "github.com/datacommonsorg/mixer/internal/proto/v1"
+	pbv1 "github.com/avsolatorio/datacommons-mixer/internal/proto/v1"
 	"github.com/google/go-cmp/cmp"
 	"google.golang.org/protobuf/testing/protocmp"
 )
