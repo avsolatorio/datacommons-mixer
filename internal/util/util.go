@@ -631,11 +631,30 @@ func FetchRemote(
 	}
 	request.Header.Set("Content-Type", "application/json")
 	request.Header.Set("X-API-Key", metadata.RemoteMixerAPIKey)
+
+	// Open the log file in append mode
+	logFile, err := os.OpenFile("/userdata/fetch_remote.log", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
+	if err != nil {
+		return fmt.Errorf("failed to open log file: %v", err)
+	}
+	defer logFile.Close()
+
+	// Log the request
+	headersJSON, err := json.Marshal(request.Header)
+	if err != nil {
+		return fmt.Errorf("failed to marshal headers: %v", err)
+	}
+	logEntry := fmt.Sprintf("%s :: %s :: %s\n", url, headersJSON, string(jsonValue))
+	if _, err := logFile.WriteString(logEntry); err != nil {
+		return fmt.Errorf("failed to write log entry: %v", err)
+	}
+
 	response, err := httpClient.Do(request)
 	if err != nil {
 		return err
 	}
 	defer response.Body.Close()
+
 	// Read response body
 	var responseBodyBytes []byte
 	if response.StatusCode != http.StatusOK {
@@ -645,6 +664,7 @@ func FetchRemote(
 	if err != nil {
 		return err
 	}
+
 	// Convert response body to string
 	unmarshaler := protojson.UnmarshalOptions{DiscardUnknown: true}
 	return unmarshaler.Unmarshal(responseBodyBytes, out)
