@@ -18,7 +18,7 @@ import (
 	"database/sql"
 	"time"
 
-	"github.com/datacommonsorg/mixer/internal/util"
+	"github.com/avsolatorio/datacommons-mixer/internal/util"
 )
 
 // EntityVariableExistence returns all existent entity, variable pairs

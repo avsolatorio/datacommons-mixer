@@ -25,7 +25,7 @@ import (
 	pbv1 "github.com/datacommonsorg/mixer/internal/proto/v1"
 	"github.com/datacommonsorg/mixer/internal/server/v1/propertyvalues"
 	"github.com/datacommonsorg/mixer/internal/store"
-	"github.com/datacommonsorg/mixer/internal/util"
+	"github.com/avsolatorio/datacommons-mixer/internal/util"
 	"golang.org/x/sync/errgroup"
 	"googlemaps.github.io/maps"
 )

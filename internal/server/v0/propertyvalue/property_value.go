@@ -22,7 +22,7 @@ import (
 
 	"github.com/datacommonsorg/mixer/internal/server/v1/propertyvalues"
 	"github.com/datacommonsorg/mixer/internal/store"
-	"github.com/datacommonsorg/mixer/internal/util"
+	"github.com/avsolatorio/datacommons-mixer/internal/util"
 
 	pb "github.com/datacommonsorg/mixer/internal/proto"
 	pbv1 "github.com/datacommonsorg/mixer/internal/proto/v1"

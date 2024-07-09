@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/datacommonsorg/mixer/internal/util"
+	"github.com/avsolatorio/datacommons-mixer/internal/util"
 )
 
 // CheckVariableGroups check and returns variable groups that in SQL database.

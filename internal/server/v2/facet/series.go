@@ -25,7 +25,7 @@ import (
 	"github.com/datacommonsorg/mixer/internal/sqldb/sqlquery"
 	"github.com/datacommonsorg/mixer/internal/store"
 	"github.com/datacommonsorg/mixer/internal/store/bigtable"
-	"github.com/datacommonsorg/mixer/internal/util"
+	"github.com/avsolatorio/datacommons-mixer/internal/util"
 	"google.golang.org/protobuf/proto"
 )
 

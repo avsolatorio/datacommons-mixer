@@ -19,7 +19,7 @@ import (
 
 	pbv1 "github.com/datacommonsorg/mixer/internal/proto/v1"
 	nodewrapper "github.com/datacommonsorg/mixer/internal/server/node"
-	"github.com/datacommonsorg/mixer/internal/util"
+	"github.com/avsolatorio/datacommons-mixer/internal/util"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 

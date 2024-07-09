@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/datacommonsorg/mixer/internal/util"
+	"github.com/avsolatorio/datacommons-mixer/internal/util"
 )
 
 // DateEntityCount returns number of entities (from given candidates) with data for

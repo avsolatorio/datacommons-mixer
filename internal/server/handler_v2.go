@@ -23,7 +23,7 @@ import (
 	"github.com/datacommonsorg/mixer/internal/server/pagination"
 	"github.com/datacommonsorg/mixer/internal/server/translator"
 	v2observation "github.com/datacommonsorg/mixer/internal/server/v2/observation"
-	"github.com/datacommonsorg/mixer/internal/util"
+	"github.com/avsolatorio/datacommons-mixer/internal/util"
 	"golang.org/x/sync/errgroup"
 
 	pbv2 "github.com/datacommonsorg/mixer/internal/proto/v2"

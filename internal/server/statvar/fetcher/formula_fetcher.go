@@ -24,7 +24,7 @@ import (
 	"github.com/datacommonsorg/mixer/internal/server/resource"
 	v1pv "github.com/datacommonsorg/mixer/internal/server/v1/propertyvalues"
 	"github.com/datacommonsorg/mixer/internal/store"
-	"github.com/datacommonsorg/mixer/internal/util"
+	"github.com/avsolatorio/datacommons-mixer/internal/util"
 	"golang.org/x/sync/errgroup"
 )
 

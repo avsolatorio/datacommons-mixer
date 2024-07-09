@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/datacommonsorg/mixer/internal/util"
+	"github.com/avsolatorio/datacommons-mixer/internal/util"
 )
 
 // CountObservation count observation for given entity and variable pair in SQL database.

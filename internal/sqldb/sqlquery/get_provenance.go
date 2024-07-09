@@ -19,7 +19,7 @@ import (
 	"time"
 
 	pb "github.com/datacommonsorg/mixer/internal/proto"
-	"github.com/datacommonsorg/mixer/internal/util"
+	"github.com/avsolatorio/datacommons-mixer/internal/util"
 )
 
 // GetProvenances returns all the provenance name and url in SQL database.

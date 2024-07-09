@@ -25,7 +25,7 @@ import (
 	"reflect"
 
 	pb "github.com/datacommonsorg/mixer/internal/proto"
-	"github.com/datacommonsorg/mixer/internal/util"
+	"github.com/avsolatorio/datacommons-mixer/internal/util"
 )
 
 // A calculable item that belong to a node in the AST tree.

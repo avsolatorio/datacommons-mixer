@@ -23,7 +23,7 @@ import (
 	"time"
 
 	"cloud.google.com/go/pubsub"
-	"github.com/datacommonsorg/mixer/internal/util"
+	"github.com/avsolatorio/datacommons-mixer/internal/util"
 )
 
 // Subscribe does the following:

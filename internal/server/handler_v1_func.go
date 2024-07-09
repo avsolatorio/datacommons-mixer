@@ -19,7 +19,7 @@ package server
 import (
 	pbv1 "github.com/datacommonsorg/mixer/internal/proto/v1"
 	"github.com/datacommonsorg/mixer/internal/server/v1/info"
-	"github.com/datacommonsorg/mixer/internal/util"
+	"github.com/avsolatorio/datacommons-mixer/internal/util"
 )
 
 var localBulkVariableInfoFunc = info.BulkVariableInfo

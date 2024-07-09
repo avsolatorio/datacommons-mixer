@@ -19,7 +19,7 @@ import (
 	"strings"
 
 	cbt "cloud.google.com/go/bigtable"
-	"github.com/datacommonsorg/mixer/internal/util"
+	"github.com/avsolatorio/datacommons-mixer/internal/util"
 	"golang.org/x/sync/errgroup"
 )
 

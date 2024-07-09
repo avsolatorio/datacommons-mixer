@@ -21,7 +21,7 @@ import (
 
 	pbv2 "github.com/datacommonsorg/mixer/internal/proto/v2"
 	nodewrapper "github.com/datacommonsorg/mixer/internal/server/node"
-	"github.com/datacommonsorg/mixer/internal/util"
+	"github.com/avsolatorio/datacommons-mixer/internal/util"
 
 	"github.com/datacommonsorg/mixer/internal/store"
 )

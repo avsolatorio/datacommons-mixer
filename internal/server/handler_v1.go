@@ -36,7 +36,7 @@ import (
 	"github.com/datacommonsorg/mixer/internal/server/v1/triples"
 	"github.com/datacommonsorg/mixer/internal/server/v1/variable"
 	"github.com/datacommonsorg/mixer/internal/server/v1/variables"
-	"github.com/datacommonsorg/mixer/internal/util"
+	"github.com/avsolatorio/datacommons-mixer/internal/util"
 	"golang.org/x/sync/errgroup"
 )
 

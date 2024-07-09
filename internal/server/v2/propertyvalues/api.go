@@ -28,7 +28,7 @@ import (
 	"github.com/datacommonsorg/mixer/internal/server/statvar/hierarchy"
 	v1pv "github.com/datacommonsorg/mixer/internal/server/v1/propertyvalues"
 	v2p "github.com/datacommonsorg/mixer/internal/server/v2/properties"
-	"github.com/datacommonsorg/mixer/internal/util"
+	"github.com/avsolatorio/datacommons-mixer/internal/util"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
